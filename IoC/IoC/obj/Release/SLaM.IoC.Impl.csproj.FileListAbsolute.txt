@@ -1,0 +1,13 @@
+C:\Users\Moritz\Desktop\Masterarbeit\SLaM\SLaM\Application\IoC\IoCImpl\bin\Release\SLaM.IoC.Impl.dll
+C:\Users\Moritz\Desktop\Masterarbeit\SLaM\SLaM\Application\IoC\IoCImpl\bin\Release\SLaM.IoC.Impl.pdb
+C:\Users\Moritz\Desktop\Masterarbeit\SLaM\SLaM\Application\IoC\IoCImpl\bin\Release\Common.dll
+C:\Users\Moritz\Desktop\Masterarbeit\SLaM\SLaM\Application\IoC\IoCImpl\bin\Release\LightInject.dll
+C:\Users\Moritz\Desktop\Masterarbeit\SLaM\SLaM\Application\IoC\IoCImpl\bin\Release\Ninject.dll
+C:\Users\Moritz\Desktop\Masterarbeit\SLaM\SLaM\Application\IoC\IoCImpl\bin\Release\SLaM.IoC.dll
+C:\Users\Moritz\Desktop\Masterarbeit\SLaM\SLaM\Application\IoC\IoCImpl\bin\Release\Common.pdb
+C:\Users\Moritz\Desktop\Masterarbeit\SLaM\SLaM\Application\IoC\IoCImpl\bin\Release\SLaM.IoC.pdb
+C:\Users\Moritz\Desktop\Masterarbeit\SLaM\SLaM\Application\IoC\IoCImpl\bin\Release\Ninject.xml
+C:\Users\Moritz\Desktop\Masterarbeit\SLaM\SLaM\Application\IoC\IoCImpl\obj\Release\SLaM.IoC.Impl.csprojResolveAssemblyReference.cache
+C:\Users\Moritz\Desktop\Masterarbeit\SLaM\SLaM\Application\IoC\IoCImpl\obj\Release\SLaM.IoC.Impl.csproj.CoreCompileInputs.cache
+C:\Users\Moritz\Desktop\Masterarbeit\SLaM\SLaM\Application\IoC\IoCImpl\obj\Release\SLaM.IoC.Impl.dll
+C:\Users\Moritz\Desktop\Masterarbeit\SLaM\SLaM\Application\IoC\IoCImpl\obj\Release\SLaM.IoC.Impl.pdb

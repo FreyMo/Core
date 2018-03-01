@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DFC42C3A-5CF6-4CD0-BE1B-4531262ED3F1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Core.Common</RootNamespace>
+    <AssemblyName>Core.Common</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ArgumentMust\ArgumentFuncExtensions.cs" />
+    <Compile Include="ArgumentMust\ArgumentMust.cs" />
+    <Compile Include="ArgumentMust\InternalArgumentMust.cs" />
+    <Compile Include="Attributes\DescriptionKeyAttribute.cs" />
+    <Compile Include="Chronometry\Measure.cs" />
+    <Compile Include="Commands\AsyncCommand\AsyncCommand.cs" />
+    <Compile Include="Commands\AsyncCommand\AsyncCommandBase.cs" />
+    <Compile Include="Commands\AsyncCommand\IAsyncCommand.cs" />
+    <Compile Include="Commands\ICommandBase.cs" />
+    <Compile Include="Commands\SyncCommand\ISyncCommand.cs" />
+    <Compile Include="Commands\SyncCommand\SyncCommand.cs" />
+    <Compile Include="Commands\SyncCommand\SyncCommandBase.cs" />
+    <Compile Include="Dispose\DisposableBase.cs" />
+    <Compile Include="Extensions\CollectionExtensions.cs" />
+    <Compile Include="Extensions\ComparableExtensions.cs" />
+    <Compile Include="Extensions\DoubleExtensions.cs" />
+    <Compile Include="Extensions\EnumerableExtensions.cs" />
+    <Compile Include="Extensions\GenericExtensions.cs" />
+    <Compile Include="Extensions\ObjectExtensions.cs" />
+    <Compile Include="Extensions\IntegerExtensions.cs" />
+    <Compile Include="Messenger\DisposableMessenger\DisposableMessenger.cs" />
+    <Compile Include="Messenger\DisposableMessenger\IDisposableMessenger.cs" />
+    <Compile Include="Messenger\Messenger\CachedMessenger.cs" />
+    <Compile Include="Messenger\Messenger\HandlerDictionary.cs" />
+    <Compile Include="Messenger\Messenger\Handlers.cs" />
+    <Compile Include="Messenger\Messenger\ICachedMessenger.cs" />
+    <Compile Include="Messenger\Messenger\IMessenger.cs" />
+    <Compile Include="Messenger\Messenger\ISubscriberTo.cs" />
+    <Compile Include="Messenger\Messenger\MessageRepository.cs" />
+    <Compile Include="Messenger\Messenger\Messenger.cs" />
+    <Compile Include="Notification\Bindable.cs" />
+    <Compile Include="NullReference\NullReference.cs" />
+    <Compile Include="Quantities\AreaQuantity\Area.cs" />
+    <Compile Include="Quantities\AreaQuantity\Extensions\DoubleExtensions.cs" />
+    <Compile Include="Quantities\AreaQuantity\Extensions\IntegerExtensions.cs" />
+    <Compile Include="Quantities\AreaQuantity\SquareCentiMeter.cs" />
+    <Compile Include="Quantities\AreaQuantity\SquareMeter.cs" />
+    <Compile Include="Quantities\AreaQuantity\SquareMilliMeter.cs" />
+    <Compile Include="Quantities\Definitions\BaseUnit.cs" />
+    <Compile Include="Quantities\Definitions\IPhysicalQuantity.cs" />
+    <Compile Include="Quantities\Definitions\IPhysicalQuantityBase.cs" />
+    <Compile Include="Quantities\Definitions\IUnitBase.cs" />
+    <Compile Include="Quantities\Definitions\PhysicalQuantity.cs" />
+    <Compile Include="Quantities\Definitions\Unit.cs" />
+    <Compile Include="Quantities\EnergyQuantity\Energy.cs" />
+    <Compile Include="Quantities\EnergyQuantity\Extensions\DoubleExtensions.cs" />
+    <Compile Include="Quantities\EnergyQuantity\Extensions\IntegerExtensions.cs" />
+    <Compile Include="Quantities\EnergyQuantity\Joule.cs" />
+    <Compile Include="Quantities\EnergyQuantity\MilliJoule.cs" />
+    <Compile Include="Quantities\FrequencyQuantity\Extensions\DoubleExtensions.cs" />
+    <Compile Include="Quantities\FrequencyQuantity\Extensions\IntegerExtensions.cs" />
+    <Compile Include="Quantities\FrequencyQuantity\Frequency.cs" />
+    <Compile Include="Quantities\FrequencyQuantity\Hertz.cs" />
+    <Compile Include="Quantities\FrequencyQuantity\KiloHertz.cs" />
+    <Compile Include="Quantities\FrequencyQuantity\MegaHertz.cs" />
+    <Compile Include="Quantities\IntensityQuantity\Extensions\DoubleExtensions.cs" />
+    <Compile Include="Quantities\IntensityQuantity\Extensions\IntegerExtensions.cs" />
+    <Compile Include="Quantities\IntensityQuantity\Intensity.cs" />
+    <Compile Include="Quantities\IntensityQuantity\WattPerSquareCentimeter.cs" />
+    <Compile Include="Quantities\IntensityQuantity\WattPerSquareMeter.cs" />
+    <Compile Include="Quantities\LengthQuantity\Extensions\DoubleExtensions.cs" />
+    <Compile Include="Quantities\LengthQuantity\Extensions\IntegerExtensions.cs" />
+    <Compile Include="Quantities\LengthQuantity\Inch.cs" />
+    <Compile Include="Quantities\LengthQuantity\Length.cs" />
+    <Compile Include="Quantities\LengthQuantity\Meter.cs" />
+    <Compile Include="Quantities\LengthQuantity\MicroMeter.cs" />
+    <Compile Include="Quantities\LengthQuantity\MilliMeter.cs" />
+    <Compile Include="Quantities\LengthQuantity\NanoMeter.cs" />
+    <Compile Include="Quantities\PowerQuantity\Extensions\DoubleExtensions.cs" />
+    <Compile Include="Quantities\PowerQuantity\Extensions\IntegerExtensions.cs" />
+    <Compile Include="Quantities\PowerQuantity\Power.cs" />
+    <Compile Include="Quantities\PowerQuantity\Watt.cs" />
+    <Compile Include="Quantities\RatioQuantity\Extensions\DoubleExtensions.cs" />
+    <Compile Include="Quantities\RatioQuantity\Extensions\IntegerExtensions.cs" />
+    <Compile Include="Quantities\RatioQuantity\PartsPerMillion.cs" />
+    <Compile Include="Quantities\RatioQuantity\Percent.cs" />
+    <Compile Include="Quantities\RatioQuantity\Permil.cs" />
+    <Compile Include="Quantities\RatioQuantity\Ratio.cs" />
+    <Compile Include="Quantities\RatioQuantity\Whole.cs" />
+    <Compile Include="Quantities\TimeQuantity\Extensions\DoubleExtensions.cs" />
+    <Compile Include="Quantities\TimeQuantity\Extensions\IntegerExtensions.cs" />
+    <Compile Include="Quantities\TimeQuantity\MilliSecond.cs" />
+    <Compile Include="Quantities\TimeQuantity\NanoSecond.cs" />
+    <Compile Include="Quantities\TimeQuantity\PicoSecond.cs" />
+    <Compile Include="Quantities\TimeQuantity\Second.cs" />
+    <Compile Include="Quantities\TimeQuantity\Time.cs" />
+    <Compile Include="Quantities\VelocityQuantity\Extensions\DoubleExtensions.cs" />
+    <Compile Include="Quantities\VelocityQuantity\Extensions\IntegerExtensions.cs" />
+    <Compile Include="Quantities\VelocityQuantity\MillimeterPerSecond.cs" />
+    <Compile Include="Quantities\VelocityQuantity\KilometerPerHour.cs" />
+    <Compile Include="Quantities\VelocityQuantity\MeterPerSecond.cs" />
+    <Compile Include="Quantities\VelocityQuantity\Velocity.cs" />
+    <Compile Include="Predicates\ComparablePredicates.cs" />
+    <Compile Include="Predicates\EnumerablePredicates.cs" />
+    <Compile Include="Predicates\GenericTypePredicates.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

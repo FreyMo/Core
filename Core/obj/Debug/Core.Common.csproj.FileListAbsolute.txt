@@ -1,0 +1,5 @@
+D:\Common\Common\Core\bin\Debug\Core.Common.dll
+D:\Common\Common\Core\bin\Debug\Core.Common.pdb
+D:\Common\Common\Core\obj\Debug\Core.Common.csproj.CoreCompileInputs.cache
+D:\Common\Common\Core\obj\Debug\Core.Common.dll
+D:\Common\Common\Core\obj\Debug\Core.Common.pdb

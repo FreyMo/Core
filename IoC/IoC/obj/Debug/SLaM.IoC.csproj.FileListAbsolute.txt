@@ -1,0 +1,13 @@
+C:\Users\Mo\Desktop\Software\SLaM\SLaM\Application\IoC\IoC\bin\Debug\SLaM.IoC.dll
+C:\Users\Mo\Desktop\Software\SLaM\SLaM\Application\IoC\IoC\bin\Debug\SLaM.IoC.pdb
+C:\Users\Mo\Desktop\Software\SLaM\SLaM\Application\IoC\IoC\bin\Debug\Common.dll
+C:\Users\Mo\Desktop\Software\SLaM\SLaM\Application\IoC\IoC\bin\Debug\Common.pdb
+C:\Users\Mo\Desktop\Software\SLaM\SLaM\Application\IoC\IoC\obj\Debug\SLaM.IoC.csprojResolveAssemblyReference.cache
+C:\Users\Mo\Desktop\Software\SLaM\SLaM\Application\IoC\IoC\obj\Debug\SLaM.IoC.csproj.CoreCompileInputs.cache
+C:\Users\Mo\Desktop\Software\SLaM\SLaM\Application\IoC\IoC\obj\Debug\SLaM.IoC.dll
+C:\Users\Mo\Desktop\Software\SLaM\SLaM\Application\IoC\IoC\obj\Debug\SLaM.IoC.pdb
+C:\Users\Mo\Desktop\Software\SLaM\SLaM\Application\IoC\IoC\bin\Debug\LightInject.dll
+C:\Users\Mo\Desktop\Software\SLaM\SLaM\Application\IoC\IoC\bin\Debug\Ninject.dll
+C:\Users\Mo\Desktop\Software\SLaM\SLaM\Application\IoC\IoC\bin\Debug\SLaM.IoC.Definitions.dll
+C:\Users\Mo\Desktop\Software\SLaM\SLaM\Application\IoC\IoC\bin\Debug\SLaM.IoC.Definitions.pdb
+C:\Users\Mo\Desktop\Software\SLaM\SLaM\Application\IoC\IoC\bin\Debug\Ninject.xml

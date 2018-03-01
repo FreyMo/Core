@@ -1,0 +1,8 @@
+D:\Common\Common\IoC\IoC.Definitions\bin\Debug\Core.IoC.Definitions.dll
+D:\Common\Common\IoC\IoC.Definitions\bin\Debug\Core.IoC.Definitions.pdb
+D:\Common\Common\IoC\IoC.Definitions\bin\Debug\Core.Common.dll
+D:\Common\Common\IoC\IoC.Definitions\bin\Debug\Core.Common.pdb
+D:\Common\Common\IoC\IoC.Definitions\obj\Debug\Core.IoC.Definitions.csprojResolveAssemblyReference.cache
+D:\Common\Common\IoC\IoC.Definitions\obj\Debug\Core.IoC.Definitions.csproj.CoreCompileInputs.cache
+D:\Common\Common\IoC\IoC.Definitions\obj\Debug\Core.IoC.Definitions.dll
+D:\Common\Common\IoC\IoC.Definitions\obj\Debug\Core.IoC.Definitions.pdb

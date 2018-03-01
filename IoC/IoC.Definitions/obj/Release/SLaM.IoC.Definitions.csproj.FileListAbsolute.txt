@@ -1,0 +1,8 @@
+C:\Users\Mo\Desktop\Software\SLaM\SLaM\Application\IoC\IoC.Definitions\bin\Release\SLaM.IoC.Definitions.dll
+C:\Users\Mo\Desktop\Software\SLaM\SLaM\Application\IoC\IoC.Definitions\bin\Release\SLaM.IoC.Definitions.pdb
+C:\Users\Mo\Desktop\Software\SLaM\SLaM\Application\IoC\IoC.Definitions\bin\Release\Common.dll
+C:\Users\Mo\Desktop\Software\SLaM\SLaM\Application\IoC\IoC.Definitions\bin\Release\Common.pdb
+C:\Users\Mo\Desktop\Software\SLaM\SLaM\Application\IoC\IoC.Definitions\obj\Release\SLaM.IoC.Definitions.csprojResolveAssemblyReference.cache
+C:\Users\Mo\Desktop\Software\SLaM\SLaM\Application\IoC\IoC.Definitions\obj\Release\SLaM.IoC.Definitions.csproj.CoreCompileInputs.cache
+C:\Users\Mo\Desktop\Software\SLaM\SLaM\Application\IoC\IoC.Definitions\obj\Release\SLaM.IoC.Definitions.dll
+C:\Users\Mo\Desktop\Software\SLaM\SLaM\Application\IoC\IoC.Definitions\obj\Release\SLaM.IoC.Definitions.pdb
